@@ -1,12 +1,12 @@
 # Comic Art Generator
 
-The Comic Art Generator is a web application that empowers users to effortlessly create and share captivating 10-panel comic strips using the DALL·E API. This user-friendly interface leverages state-of-the-art text-to-image capabilities, transforming textual narratives into visually engaging comic panels.
+The Comic Art Generator is a web application that empowers users to effortlessly create and share captivating 10-panel comic strips using text-to-image API. This user-friendly interface leverages state-of-the-art text-to-image capabilities, transforming textual narratives into visually engaging comic panels.
 
 ## Table of Contents
 
 - [About Comic Art Generator](#about-comic-art-generator)
 - [Getting Started](#getting-started)
-- [How DALL·E and APIs Work](#how-dall-e-and-apis-work)
+- [How APIs Work](#how-apis-work)
 - [About Comics and Mangas](#about-comics-and-mangas)
 - [Author](#author)
 - [Project Structure](#project-structure)
@@ -29,13 +29,7 @@ To use the Comic Art Generator, follow these simple steps:
 
 Please note that leaving a panel text empty will result in 'Panel text is empty' for that particular panel.
 
-## How DALL·E and APIs Work
-
-### DALL·E
-
-[DALL·E](https://openai.com/) is a neural network-based model developed by OpenAI. It is an extension of the GPT (Generative Pre-trained Transformer) architecture specifically designed for image generation. DALL·E can generate images based on textual prompts, making it a powerful tool for creating unique and imaginative visuals.
-
-### APIs
+## How APIs Work
 
 An API (Application Programming Interface) is a set of rules that allows one software application to interact with another. In the case of the Comic Art Generator, the DALL·E API is utilized for text-to-image conversion. The API key provided in the project allows seamless communication between the web application and the DALL·E model hosted on the cloud.
 
