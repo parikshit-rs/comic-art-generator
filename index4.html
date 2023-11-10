@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comic Art Generator</title>
+  <link rel="stylesheet" type="text/css" href="style4.css">
+  <script src="https://kit.fontawesome.com/183914ec13.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1><i class="fa-solid fa-wand-magic-sparkles"></i>Comic Art Generator</h1>
+    <div class="desc">The Comic Art Generator is a web application that empowers users to effortlessly create and share 
+        captivating 10-panel comic strips using Dall E API in a user-friendly interface. Leveraging a state-of-the-art text-to-image API, users witness their textual narratives 
+        transformed into visually engaging comic panels.
+        Please note that a blank input will result in 'Panel text is empty' for that particular panel.</div>
+    <form id="comic-form">
+      <h2>Enter Text for Each Panel:</h2>
+      <div id="loading" class="hidden">
+        <img src="loading1.svg" alt="Loading...">
+        <p>Generating Comic...</p>
+      </div>
+      <div id="comic"></div>
+
+      <button type="button" id="generate-button">Generate Comic</button>
+    </form>
+
+    <div id="comic-results"></div>
+  </div>
+
+  <nav class="nav">
+    About me
+    <div class="navdet" id="navbarNav">
+      <p>Myself Parikshit Sahu, currently pursuing B.Tech in Electronics and Communications Engineering from IIT Roorkee. </p>
+      <p>Feel free to contact me via:</p>
+      <ul class="navit">
+        <li class="navi">
+          <a class="nav-link" href="https://www.linkedin.com/in/parikshit-sahu-a4b767234" target="blank"><i class="fab fa-linkedin">
+            </i>Linkedin</a>
+        </li>
+        <li class="navi">
+            <a class="nav-link" href="https://github.com/parikshit-rs" target="blank"><i class="fab fa-github"></i> Github</a>
+        </li>
+        <!-- <li class="navi">
+          <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank"><i class="fab fa-youtube">
+            </i>YouTube</a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+  <script src="script5.js"></script>
+</body>
+</html>
