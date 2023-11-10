@@ -12,7 +12,6 @@ The Comic Art Generator is a web application that empowers users to effortlessly
 - [Project Structure](#project-structure)
 - [Styling and Theming](#styling-and-theming)
 - [Dependencies](#dependencies)
-- [License](#license)
 
 ## About Comic Art Generator
 
@@ -22,10 +21,11 @@ The Comic Art Generator is a creative tool that merges the power of storytelling
 
 To use the Comic Art Generator, follow these simple steps:
 
-1. Enter text for each of the 10 comic panels using the input form.
-2. Click the "Generate Comic" button to initiate the text-to-image conversion process.
-3. Witness the magic as the API transforms your text into vibrant comic panels.
-4. Share your creatively generated comic strip with others.
+1. Make sure you use a Virtual Private Network (VPN) for running this project.
+2. Enter text for each of the 10 comic panels using the input form.
+3. Click the "Generate Comic" button to initiate the text-to-image conversion process.
+4. Witness the magic as the API transforms your text into vibrant comic panels.
+5. Share your creatively generated comic strip with others.
 
 Please note that leaving a panel text empty will result in 'Panel text is empty' for that particular panel.
 
