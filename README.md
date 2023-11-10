@@ -46,7 +46,7 @@ Feel free to connect with me via:
 
 - **index.html**: The main HTML file containing the structure of the web page.
 - **style4.css**: The CSS file for styling the web page.
-- **script5.js**: The JavaScript file containing logic for fetching the DALL·E API and generating comic panels.
+- **script5.js**: The JavaScript file containing logic for fetching the API and generating comic panels.
 
 ## Styling and Theming
 
