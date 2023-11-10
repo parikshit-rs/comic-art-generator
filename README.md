@@ -4,7 +4,6 @@ The Comic Art Generator is a web application that empowers users to effortlessly
 
 ## Table of Contents
 
-- [About Comic Art Generator](#about-comic-art-generator)
 - [Getting Started](#getting-started)
 - [How APIs Work](#how-apis-work)
 - [About Comics and Mangas](#about-comics-and-mangas)
@@ -13,25 +12,22 @@ The Comic Art Generator is a web application that empowers users to effortlessly
 - [Styling and Theming](#styling-and-theming)
 - [Dependencies](#dependencies)
 
-## About Comic Art Generator
-
-The Comic Art Generator is a creative tool that merges the power of storytelling with the cutting-edge DALL·E API. Users can input text prompts for each of the 10 comic panels, and the application dynamically generates corresponding visual representations using the DALL·E text-to-image conversion.
-
 ## Getting Started
 
 To use the Comic Art Generator, follow these simple steps:
 
-1. Make sure you use a Virtual Private Network (VPN) for running this project.
-2. Enter text for each of the 10 comic panels using the input form.
-3. Click the "Generate Comic" button to initiate the text-to-image conversion process.
-4. Witness the magic as the API transforms your text into vibrant comic panels.
-5. Share your creatively generated comic strip with others.
+1. Click on the link to deployed project [here](https://parikshit-rs.github.io/comic-art-generator/)
+2. Make sure you use a Virtual Private Network (VPN) for running this project.
+3. Enter text for each of the 10 comic panels using the input form.
+4. Click the "Generate Comic" button to initiate the text-to-image conversion process.
+5. Witness the magic as the API transforms your text into vibrant comic panels.
+6. Share your creatively generated comic strip with others.
 
 Please note that leaving a panel text empty will result in 'Panel text is empty' for that particular panel.
 
 ## How APIs Work
 
-An API (Application Programming Interface) is a set of rules that allows one software application to interact with another. In the case of the Comic Art Generator, the DALL·E API is utilized for text-to-image conversion. The API key provided in the project allows seamless communication between the web application and the DALL·E model hosted on the cloud.
+An application programming interface(API) is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software. A document or standard that describes how to build or use such a connection or interface is called an API specification. APIs work by sharing data between applications, systems, and devices. This happens through a request and response cycle. A user initiates a request for data by interacting with an application.
 
 ## About Comics and Mangas
 
@@ -41,7 +37,7 @@ Comics and mangas are popular forms of visual storytelling. They combine illustr
 
 This project is maintained by [Parikshit Sahu](https://www.linkedin.com/in/parikshit-sahu-a4b767234), a student pursuing B.Tech in Electronics and Communications Engineering from IIT Roorkee.
 
-Feel free to connect with Parikshit via:
+Feel free to connect with me via:
 
 - [LinkedIn](https://www.linkedin.com/in/parikshit-sahu-a4b767234)
 - [GitHub](https://github.com/parikshit-rs)
