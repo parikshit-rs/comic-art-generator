@@ -1,6 +1,22 @@
 # Comic Art Generator
 
-The Comic Art Generator is a web application that enables users to effortlessly create and share captivating 10-panel comic strips using the DALL·E API. This user-friendly interface leverages state-of-the-art text-to-image capabilities, transforming textual narratives into visually engaging comic panels.
+The Comic Art Generator is a web application that empowers users to effortlessly create and share captivating 10-panel comic strips using the DALL·E API. This user-friendly interface leverages state-of-the-art text-to-image capabilities, transforming textual narratives into visually engaging comic panels.
+
+## Table of Contents
+
+- [About Comic Art Generator](#about-comic-art-generator)
+- [Getting Started](#getting-started)
+- [How DALL·E and APIs Work](#how-dall-e-and-apis-work)
+- [About Comics and Mangas](#about-comics-and-mangas)
+- [Author](#author)
+- [Project Structure](#project-structure)
+- [Styling and Theming](#styling-and-theming)
+- [Dependencies](#dependencies)
+- [License](#license)
+
+## About Comic Art Generator
+
+The Comic Art Generator is a creative tool that merges the power of storytelling with the cutting-edge DALL·E API. Users can input text prompts for each of the 10 comic panels, and the application dynamically generates corresponding visual representations using the DALL·E text-to-image conversion.
 
 ## Getting Started
 
@@ -13,7 +29,21 @@ To use the Comic Art Generator, follow these simple steps:
 
 Please note that leaving a panel text empty will result in 'Panel text is empty' for that particular panel.
 
-## About the Author
+## How DALL·E and APIs Work
+
+### DALL·E
+
+[DALL·E](https://openai.com/) is a neural network-based model developed by OpenAI. It is an extension of the GPT (Generative Pre-trained Transformer) architecture specifically designed for image generation. DALL·E can generate images based on textual prompts, making it a powerful tool for creating unique and imaginative visuals.
+
+### APIs
+
+An API (Application Programming Interface) is a set of rules that allows one software application to interact with another. In the case of the Comic Art Generator, the DALL·E API is utilized for text-to-image conversion. The API key provided in the project allows seamless communication between the web application and the DALL·E model hosted on the cloud.
+
+## About Comics and Mangas
+
+Comics and mangas are popular forms of visual storytelling. They combine illustrations and text to convey narratives, often in a series of panels. Comics are a versatile medium, ranging from humorous strips to elaborate graphic novels, while mangas are a specific style of comics originating in Japan with a distinctive artistic and narrative approach.
+
+## Author
 
 This project is maintained by [Parikshit Sahu](https://www.linkedin.com/in/parikshit-sahu-a4b767234), a student pursuing B.Tech in Electronics and Communications Engineering from IIT Roorkee.
 
@@ -36,6 +66,3 @@ The project uses a sleek and visually appealing dark theme with background image
 
 - [Font Awesome](https://fontawesome.com/): For including scalable vector icons in the project.
 - [jQuery](https://jquery.com/): A fast, small, and feature-rich JavaScript library.
-
-
-
