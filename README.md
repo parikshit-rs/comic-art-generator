@@ -17,10 +17,10 @@ The Comic Art Generator is a web application that empowers users to effortlessly
 To use the Comic Art Generator, follow these simple steps:
 
 1. Click on the link to deployed project [here](https://parikshit-rs.github.io/comic-art-generator/)
-2. Make sure you use a Virtual Private Network (VPN) for running this project.
+2. Usage of a Virtual Private Network (VPN) is recommended for running this project.
 3. Enter text for each of the 10 comic panels using the input form.
 4. Click the "Generate Comic" button to initiate the text-to-image conversion process.
-5. Witness the magic as the API transforms your text into vibrant comic panels.
+5. Witness the magic as the API transforms your text into vibrant vertically aligned comic panels.
 6. Share your creatively generated comic strip with others.
 
 Please note that leaving a panel text empty will result in 'Panel text is empty' for that particular panel.
