@@ -2,6 +2,8 @@
 
 The Comic Art Generator is a web application that empowers users to effortlessly create and share captivating 10-panel comic strips using text-to-image API. This user-friendly interface leverages state-of-the-art text-to-image capabilities, transforming textual narratives into visually engaging comic panels.
 
+> Update on Jan 2024, the API link I used has expired so kindly use your own API link for running this project. Just paste your link in the javascript file instead of the one already there and you're done!
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
